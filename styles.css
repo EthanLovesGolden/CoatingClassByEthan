@@ -1,0 +1,114 @@
+/* 主体配色：舒适的白色与低饱和度的蓝色 */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9FAFB; /* 舒适的白色 */
+    color: #333333; /* 深色文本 */
+    text-align: center;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #3A7CA5; /* 低饱和度的蓝色 */
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem; /* 增加导航栏与内容的间隔 */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #FFFFFF; /* 白色背景 */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+h2 {
+    color: #3A7CA5; /* 低饱和度的蓝色 */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #F9FAFB; /* 白色背景 */
+    color: #3A7CA5; /* 低饱和度的蓝色 */
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-logo {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+/* 讲师介绍部分样式 */
+.instructor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructor-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructor-image {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.instructor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.instructor-details {
+    max-width: 600px;
+    text-align: left;
+    color: #333333;
+}
